@@ -70,11 +70,12 @@ a{
     color: white;
 }
 li:hover{
-    background-color: #1c1b1b;
+    background-color:  hsl(75, 94%, 57%);
      transform: translateY(-2px);
 }
-:active{
+li:active{
     text-emphasis: none;
     color: white;
     text-decoration: none;
+    background-color: hsl(75, 94%, 57%);
 }
